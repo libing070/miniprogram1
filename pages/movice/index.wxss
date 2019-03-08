@@ -4,7 +4,7 @@
   /* 设置高度 */
   grid-template-rows: 100rpx;
   /* 设置行数 */
-  grid-template-columns: 120rpx auto 280rpx;
+  grid-template-columns: 120rpx auto 150rpx;
 }
 .layout.grid .center{
   padding: 5rpx 10rpx;
@@ -31,5 +31,5 @@
 background-color:#EA6F5A;
 font-size: 20rpx;
 border-radius: 30px;
-margin: 70rpx;
+margin: 30rpx 0;
 }

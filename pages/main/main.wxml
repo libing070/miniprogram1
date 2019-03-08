@@ -1,5 +1,6 @@
 <!-- {{index}}
   {{userName}} -->
+  <view>欢迎，{{userName}}</view>
 <view class="weui-btn-area">
           <button class="weui-btn" type="primary" bindtap="goMoveList">查询电影列表</button>
 </view>

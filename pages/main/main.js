@@ -117,9 +117,13 @@ Page({
     ec: {
       onInit: initChart
     },
+    userName:''
   
   },
   onLoad: function (option) {
+    this.setData({
+      userName: option.name
+    })
   },
   onReady() {
     setTimeout(function () {
