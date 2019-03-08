@@ -1,0 +1,14 @@
+<!-- 网格布局 -->
+
+<view class="layout grid" wx:for="{{tableData}}" wx:for-item="data" wx:for-index="index">
+  <div class="left"><image src='../src/img/move_{{data.img}}.jpg' style="width:120rpx;height:150rpx"></image></div>
+  <div class="center">
+    <text class="title">{{data.title}}</text>
+    <text class="pinfen">观众评分 {{data.penfen}}</text>
+    <text class="daoyan">导演：{{data.daoyan}}</text>
+    <text class="zhuyan">主演：{{data.zhuyan}}</text>
+  </div>
+  <div class="right">
+     <button class="weui-btn" type="primary">购买</button>
+  </div>
+</view>

@@ -1,0 +1,35 @@
+.layout.grid {
+  padding:40rpx;
+  display: grid;
+  /* 设置高度 */
+  grid-template-rows: 100rpx;
+  /* 设置行数 */
+  grid-template-columns: 120rpx auto 280rpx;
+}
+.layout.grid .center{
+  padding: 5rpx 10rpx;
+}
+.layout.grid .center text{
+  display: block;
+  padding: 0 15rpx;
+}
+.layout.grid .center .title{
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.layout.grid .center .pinfen{
+  font-size: 20rpx;
+}
+.layout.grid .center .daoyan{
+  font-size: 20rpx;
+}
+.layout.grid .center .zhuyan{
+  font-size: 20rpx;
+}
+.layout.grid .right .weui-btn{
+ color:white;
+background-color:#EA6F5A;
+font-size: 20rpx;
+border-radius: 30px;
+margin: 70rpx;
+}

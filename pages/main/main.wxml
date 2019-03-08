@@ -1,22 +1,13 @@
 <!-- {{index}}
   {{userName}} -->
-
-<view class="section tc" style='text-align:center'>
-  <video src="../src/video/sky.mp4" controls></video>
-  <view class="btn-area">
-    <!-- <button bindtap="bindButtonTap">获取视频</button> -->
-  </view>
+<view class="weui-btn-area">
+          <button class="weui-btn" type="primary" bindtap="goMoveList">查询电影列表</button>
 </view>
-
-<view class="section tc"  style='text-align:center'>
-  <video id="myVideo" src="../src/video/haibian.mp4" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
-  <view class="btn-area">
-    <input bindblur="bindInputBlur" />
-    <button bindtap="bindSendDanmu">发送弹幕</button>
-  </view>
+<view class="weui-btn-area">
+          <button class="weui-btn" type="primary" bindtap="goVideoIndex">观看视频</button>
 </view>
-
-
 <view style='width:100%;height:300px'>
   <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
 </view>
+
+

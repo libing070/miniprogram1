@@ -1,0 +1,14 @@
+<view class="section tc" style='text-align:center'>
+  <video src="../src/video/sky.mp4" controls></video>
+  <view class="btn-area">
+    <!-- <button bindtap="bindButtonTap">获取视频</button> -->
+  </view>
+</view>
+
+<view class="section tc" style='text-align:center'>
+  <video id="myVideo" src="../src/video/haibian.mp4" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+  <view class="btn-area">
+    <input bindblur="bindInputBlur" />
+    <button bindtap="bindSendDanmu">发送弹幕</button>
+  </view>
+</view>

@@ -111,74 +111,30 @@ function initChart(canvas, width, height, data) {
   chart.setOption(option);
   return chart;
 }
-
-/** 弹幕颜色随机 */
-function getRandomColor() {
-  const rgb = []
-  for (let i = 0; i < 3; ++i) {
-    let color = Math.floor(Math.random() * 256).toString(16)
-    color = color.length == 1 ? '0' + color : color
-    rgb.push(color)
-  }
-  return '#' + rgb.join('')
-}
-
 Page({
-  inputValue: '',
   data: {
     index:'main',
-    userName:'',
     ec: {
       onInit: initChart
     },
-    src: '',
-    danmuList: [
-      {
-        text: '第 1s 出现的弹幕',
-        color: '#ff0000',
-        time: 1
-      },
-      {
-        text: '第 3s 出现的弹幕',
-        color: '#ff00ff',
-        time: 3
-      }]
+  
   },
   onLoad: function (option) {
-    console.log(option);
-    this.setData({
-      userName: option.name
-    })
   },
   onReady() {
     setTimeout(function () {
       // 获取 chart 实例的方式
       console.log(chart)
     }, 2000);
-
-    this.videoContext = wx.createVideoContext('myVideo');
-
   },
-  bindInputBlur(e) {
-    this.inputValue = e.detail.value
-  },
-  bindButtonTap() {
-    const that = this
-    wx.chooseVideo({
-      sourceType: ['album', 'camera'],
-      maxDuration: 60,
-      camera: ['front', 'back'],
-      success(res) {
-        that.setData({
-          src: res.tempFilePath
-        })
-      }
+  goMoveList(){
+    wx.navigateTo({
+      url: '../movice/index'
     })
   },
-  bindSendDanmu() {
-    this.videoContext.sendDanmu({
-      text: this.inputValue,
-      color: getRandomColor()
+  goVideoIndex(){
+    wx.navigateTo({
+      url: '../video/index'
     })
   }
 })
