@@ -1,0 +1,11 @@
+/**app.wxss**/
+@import 'weui.wxss';
+@import "font.wxss"; 
+.container {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+} 
