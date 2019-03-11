@@ -1,4 +1,49 @@
-.layout.grid {
+.flex-main {
+  margin: 20rpx;
+  display: flex;
+  justify-content:center;
+  background-color: antiquewhite;
+}
+
+.flex-main .item {
+  height: 150rpx;
+}
+
+.item-left {
+  width: 20%;
+}
+
+.item-center {
+  padding: 0rpx 10rpx;
+   width: 50%;
+}
+.item-center text{
+   display: block;
+  padding: 0 15rpx;
+}
+.item-center .title{
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.item-center .pinfen,
+.item-center .daoyan,
+.item-center .zhuyan
+{
+  font-size: 20rpx;
+}
+
+.item-right {
+   width: 30%;
+}
+.item-right .weui-btn{
+ color:white;
+background-color:#EA6F5A;
+font-size: 20rpx;
+border-radius: 30px;
+margin: 45rpx;
+}
+
+.layout.layout{
   padding:40rpx;
   display: grid;
   /* 设置高度 */
