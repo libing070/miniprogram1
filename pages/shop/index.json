@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "shopclass":"../components/shop/class/index",
+    "shopcart": "../components/shop/cart/index",
+    "shoporder": "../components/shop/order/index",
+    "shopmymsg": "../components/shop/mymsg/index"
+  }
+}

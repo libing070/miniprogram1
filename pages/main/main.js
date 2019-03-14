@@ -140,5 +140,10 @@ Page({
     wx.navigateTo({
       url: '../video/index'
     })
+  },
+  goShopIndex(){
+    wx.navigateTo({
+      url: '../shop/index'
+    })
   }
 })

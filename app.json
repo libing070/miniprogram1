@@ -4,7 +4,8 @@
     "pages/main/main",
     "pages/logs/logs",
     "pages/movice/index",
-    "pages/video/index"
+    "pages/video/index",
+    "pages/shop/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

@@ -1,0 +1,4 @@
+<!--pages/components/shop/class/index.wxml-->
+<view>
+<text>分类</text>
+</view>

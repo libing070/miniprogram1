@@ -1,0 +1,35 @@
+<view class='shop'>
+  <view style='margin-bottom:100rpx'>
+    <view wx:if="{{clickId == 0}}">
+      <swiper indicator-dots="true" autoplay="true" interval="3000" duration="500" circular="true">
+        <block wx:for="{{imgUrls}}">
+          <swiper-item>
+            <image class="slide-image" src='../src/img/shop/indexswiper/{{item}}.png' style="width:100%;height:100%"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+      <view class="menu">
+        <view class="item" wx:for="{{menuUrls1}}" wx:for-item="data" wx:for-index="index">
+          <image class="image" src='../src/img/shop/indexmenu/{{data.img}}.png'></image>
+          <text class='text'>{{data.name}}</text>
+        </view>
+      </view>
+      <view class="menu">
+        <view class="item" wx:for="{{menuUrls2}}" wx:for-item="data" wx:for-index="index">
+          <image class="image" src='../src/img/shop/indexmenu/{{data.img}}.png'></image>
+          <text class='text'>{{data.name}}</text>
+        </view>
+      </view>
+    </view>
+    <shopclass wx:if="{{clickId == 1}}"></shopclass>
+    <shopcart wx:if="{{clickId == 2}}"></shopcart>
+    <shoporder wx:if="{{clickId == 3}}"></shoporder>
+    <shopmymsg wx:if="{{clickId == 4}}"></shopmymsg>
+  </view>
+  <view class='flex-main'>
+    <view wx:for="{{menudataList}}" wx:for-item="data" wx:for-index="index" class="item {{index==clickId?'active':''}}" data-currindex="{{index}}" bindtap='changeMenuBtn'>
+      <icon style='{{iconfontSize}}' class='iconfont {{data.icon}}'></icon>
+      <text class='text'>{{data.text}}</text>
+    </view>
+  </view>
+</view>

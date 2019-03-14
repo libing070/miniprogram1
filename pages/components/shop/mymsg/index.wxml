@@ -1,0 +1,4 @@
+<!--pages/components/shop/mymsg/index.wxml-->
+<view>
+<text>我的信息</text>
+</view>
