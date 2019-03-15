@@ -18,9 +18,47 @@ Page({
      { "name": "赚钱", 'img': 'zhuanqian' }, 
      { "name": "京东物流", 'img': 'wuliu' }, 
      { "name": "领劵", 'img': 'lingjuan' },
-      { "name": "京东生鲜", 'img':  'shengxian'}]
-  },
+      { "name": "京东生鲜", 'img':  'shengxian'}],
+    scrollxList: [{index: '1',originalPrice: '1500', presentPrice: "799"},
+      { index: '2', originalPrice: '89', presentPrice: "39.9" },
+      { index: '3', originalPrice: '312', presentPrice: "199" },
+      { index: '4', originalPrice: '2199', presentPrice: "1899" },
+      { index: '5', originalPrice: '3600', presentPrice: "3200" },
+      { index: '6', originalPrice: '16.8', presentPrice: "9.6" },
+      { index: '7', originalPrice: '179', presentPrice: "69" },
+      { index: '8', originalPrice: '39.9', presentPrice: "28.8" },
+      { index: '9', originalPrice: '1080', presentPrice: "859" },
+      { index: '10', originalPrice: '6599', presentPrice: "4999" },
+      ],
 
+    //滚动的数组
+    scrolls: [
+      {
+        name: '黄色',
+        tag: 'yellow',
+      },
+      {
+        name: '绿色',
+        tag: 'green',
+      },
+      {
+        name: '红色',
+        tag: 'red',
+      },
+      {
+        name: '黄色',
+        tag: 'yellow',
+      },
+      {
+        name: '绿色',
+        tag: 'green',
+      },
+      {
+        name: '红色',
+        tag: 'red',
+      },
+    ],
+  },
 
   onLoad: function (option) {
    var that=this;

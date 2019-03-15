@@ -1,4 +1,153 @@
 <!--pages/components/shop/cart/index.wxml-->
-<view>
-<text>购物车</text>
+<!--垂直滚动，这里必须设置高度-->
+<view style='display: flex;justify-content: center;'>
+<view  style="width:40%">
+  <scroll-view scroll-y="true" style='height:100%'>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+  </scroll-view>
+</view>
+<view style="width:10%">
+  1
+</view>
+<view  style="width:40%">
+    <scroll-view scroll-y="true" style='height:100%'>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+     <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+     <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+     <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+     <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+     <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+    <view style="background: red; width: 100px; height: 100px"></view>
+    <view style="background: green; width: 100px; height: 100px"></view>
+    <view style="background: blue; width: 100px; height: 100px"></view>
+    <view style="background: yellow; width: 100px; height: 100px"></view>
+  </scroll-view>
+
+</view>
+
 </view>

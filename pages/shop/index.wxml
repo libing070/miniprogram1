@@ -20,6 +20,31 @@
           <text class='text'>{{data.name}}</text>
         </view>
       </view>
+      <view class='sanlanimg'>
+        <view class="item item1">
+          <image class="image" src='../src/img/shop/indexsanlan/sanlan1.png'></image>
+        </view>
+        <view class="item item2">
+          <image class="image" src='../src/img/shop/indexsanlan/sanlan2.png'></image>
+        </view>
+        <view class="item item3">
+          <image class="image" src='../src/img/shop/indexsanlan/sanlan3.png'></image>
+        </view>
+      </view>
+      <scroll-view scroll-x="true">
+        <view class="scroll-x">
+          <view wx:for-items="{{scrollxList}}" wx:for-item="data" wx:for-index="index">
+            <view class='content'>          
+               <image class="image" src='../src/img/shop/indexscrollx/scrollx{{data.index}}.png'></image>
+            </view>
+            <view class='content2'>
+               <text class='text pp'>¥{{data.presentPrice}}</text>
+               <text class='text op'>¥{{data.originalPrice}}</text>
+               <text class='text line'></text>
+            </view>
+          </view>
+        </view>
+      </scroll-view>
     </view>
     <shopclass wx:if="{{clickId == 1}}"></shopclass>
     <shopcart wx:if="{{clickId == 2}}"></shopcart>
