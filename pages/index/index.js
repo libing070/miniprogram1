@@ -26,7 +26,7 @@ Page({
   login: function () {
     console.log(this.data.name + "  " + this.data.pwd);
     wx.navigateTo({
-      url: '../main/main?name=' + this.data.name
+      url: '../main/main?name=' + this.data.name+'&pwd='+this.data.pwd
     })
   },
   //事件处理函数

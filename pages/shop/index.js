@@ -68,13 +68,22 @@ Page({
          that.setData({ iconfontSize: 'font-size:30rpx'})//设置ipad下图标的大小
        }
      },
-   })
+   });
+  //  wx.request({
+  //    url: 'https://easy-mock.com/mock/5ce397e122e23351f21e78cb/h5/edu/getDynamicDataList',
+  //     method: 'post',
+  //     success: function (res) { 
+  //         //参数值为res.data,直接将返回的数据传入 
+  //         console.log(res.tableData);
+  //     }
+  //  })
   },
   onReady() {
   },
   changeMenuBtn(e){
     let that = this
     var cla = e.currentTarget.dataset.currindex;
+    console.log(e.currentTarget.dataset.currindex);
     that.setData({
       'clickId': cla
     });

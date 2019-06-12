@@ -5,7 +5,8 @@
     "pages/logs/logs",
     "pages/movice/index",
     "pages/video/index",
-    "pages/shop/index"
+    "pages/shop/index",
+    "pages/tieren/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

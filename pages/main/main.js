@@ -117,12 +117,16 @@ Page({
     ec: {
       onInit: initChart
     },
-    userName:''
+    userName:'',
+    pwd:''
   
   },
   onLoad: function (option) {
     this.setData({
       userName: option.name
+    })
+    this.setData({
+      pwd: option.pwd
     })
   },
   onReady() {
@@ -144,6 +148,11 @@ Page({
   goShopIndex(){
     wx.navigateTo({
       url: '../shop/index'
+    })
+  },
+   goTierenIndex() {
+    wx.navigateTo({
+      url: '../tieren/index'
     })
   }
 })
