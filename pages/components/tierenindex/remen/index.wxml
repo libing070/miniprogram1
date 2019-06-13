@@ -1,3 +1,70 @@
-<view>
-<text>热门</text>
+<view class="remen">
+  <!-- <i-card class='view view1' title="" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+    <view slot="content">内容不错内容不错内容不错内容不错内容不错</view>
+    <view slot="footer">尾部内容</view>
+    </i-card>
+   <i-card  class='view view2' title="" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+    <view slot="content">内容不错</view>
+    <view slot="footer">尾部内容</view>
+    </i-card>
+   <i-card  class='view view3' title="" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+    <view slot="content">内容不错</view>
+    <view slot="footer">尾部内容</view>
+    </i-card>
+   <i-card class='view view3' title="" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+    <view slot="content">内容不错</view>
+    <view slot="footer">尾部内容</view>
+    </i-card> -->
+
+
+  <view class="waterfall">
+    <view class="item">
+      <view class="item-content">
+        <i-card class='view view1' title="" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+          <view slot="content">容不错内容不错内容不错内容不错内容不错内容不错内容不错内容不错内容不错内容不错内容不错内容不错内容不错</view>
+          <view slot="footer">尾部内容</view>
+        </i-card>
+      </view>
+    </view>
+    <view class="item">
+      <view class="item-content">
+        <i-card class='view view2' title="" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+          <view slot="content">内容不错内容不错</view>
+          <view slot="footer">尾部内容</view>
+        </i-card>
+      </view>
+    </view>
+    <view class="item">
+      <view class="item-content">
+        <i-card class='view view2' title="" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+          <view slot="content">内容不错内容不错</view>
+          <view slot="footer">尾部内容</view>
+        </i-card>
+      </view>
+    </view>
+    <view class="item">
+      <view class="item-content">
+        <i-card class='view view2' title="" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+          <view slot="content">内容不错内容不错</view>
+          <view slot="footer">尾部内容</view>
+        </i-card>
+      </view>
+    </view>
+    <view class="item">
+      <view class="item-content">
+        <i-card class='view view2' title="" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+          <view slot="content">内容不错内容不错</view>
+          <view slot="footer">尾部内容</view>
+        </i-card>
+      </view>
+    </view>
+    <view class="item">
+      <view class="item-content">
+        <i-card class='view view2' title="" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+          <view slot="content">内容不错内容不错</view>
+          <view slot="footer">尾部内容</view>
+        </i-card>
+      </view>
+    </view>
+  </view>
 </view>
